@@ -80,3 +80,5 @@ function init() {
     // render the scene
     renderer.render(scene, camera);
 }
+
+// https://stackoverflow.com/questions/46664898/three-js-how-to-translate-geometry
