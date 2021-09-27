@@ -49,6 +49,10 @@ function init() {
     Cubo.push(cubo(4, 4, 4, 800080, 'Standard', false)); 
     Cubo.push(cubo(4, 4, 4, 0xFFFFFF, 'Standard', false));
 
+    for (i = 0; i < 4; i++) {
+        Cubo[0].position.set(0, 2+4, 0);
+    }
+
     Cubo[0].position.set(0, 2, 0);
     Cubo[1].position.set(0, 6, 0);
     Cubo[2].position.set(0, 10, 0);
